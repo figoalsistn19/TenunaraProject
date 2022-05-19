@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tenunaraapplication</string>
+    <string name="splash_name">Tenunara</string>
+    <string name="title_menu_4">WOHOO! WELCOME TO TENUNARA</string>
+    <string name="desc_menu_1">Here you can find information regarding the names  and types of woven fabrics that you have with the meanings contained in them.</string>
+    <string name="desc_menu_2">Here we also provide information on weaving craftsmen according to the area you choose and also information about the training.</string>
+    <string name="desc_menu_3">And here you can see woven fabrics that are sought after every week.</string>
+    <string name="learn_now">Next</string>
+    <string name="button_login">Login</string>
+    <string name="name_warning">Nama tidak boleh kosong</string>
+    <string name="email_warning">Format email salah</string>
+    <string name="email_empaty">Email tidak boleh kosong</string>
+    <string name="password_warning">Kata sandi harus memiliki minimal 6 karakter</string>
+    <string name="register_success">Daftar berhasil</string>
+    <string name="register_fail">Daftar gagal</string>
+    <string name="login_success">Berhasil masuk</string>
+    <string name="login_fail">Gagal masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="account_question">Belum punya akun ?</string>
+    <string name="register">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="name">Nama</string>
+    <string name="message_login_page">Silahkan lengkapi data anda</string>
+    <string name="title_login_page">Selamat datang di aplikasi cerita</string>
+    <string name="signup">Register</string>
+    <string name="title_signup_page">Fill in your personal data first</string>
+</resources>

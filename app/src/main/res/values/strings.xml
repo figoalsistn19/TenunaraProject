@@ -25,4 +25,9 @@
     <string name="title_login_page">Selamat datang di aplikasi cerita</string>
     <string name="signup">Register</string>
     <string name="title_signup_page">Fill in your personal data first</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="explore_page">explore Page</string>
+    <string name="home_page">home page</string>
+    <string name="profile_page">profile page</string>
 </resources>

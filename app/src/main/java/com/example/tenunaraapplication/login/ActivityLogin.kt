@@ -2,11 +2,11 @@ package com.example.tenunaraapplication.login
 
 import android.content.Intent
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowInsets
 import android.view.WindowManager
-import com.example.tenunaraapplication.R
+import androidx.appcompat.app.AppCompatActivity
+import com.example.tenunaraapplication.MainActivity
 import com.example.tenunaraapplication.databinding.ActivityLoginBinding
 import com.example.tenunaraapplication.register.ActivityRegister
 
@@ -23,6 +23,11 @@ class ActivityLogin : AppCompatActivity() {
 
         bindingLogin.tvSignupIntent.setOnClickListener {
             val intent = Intent(this@ActivityLogin, ActivityRegister::class.java)
+            startActivity(intent)
+        }
+
+        bindingLogin.loginButton.setOnClickListener {
+            val intent = Intent (this@ActivityLogin, MainActivity ::class.java)
             startActivity(intent)
         }
     }

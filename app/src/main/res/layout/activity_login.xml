@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_main"
     tools:context=".login.ActivityLogin">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -12,30 +11,38 @@
         android:layout_height="wrap_content">
 
         <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_bg_main"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
             android:id="@+id/imageView"
             android:layout_width="250dp"
             android:layout_height="250dp"
-            app:layout_constraintBottom_toTopOf="@+id/guidelineHorizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="56dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/imagelog"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/coverTextView"
-            android:layout_width="0dp"
+            android:layout_width="347dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginBottom="220dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             android:alpha="1"
             android:fontFamily="@font/ibmplexsansthailooped_semibold"
             android:text="@string/title_login_page"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/guidelineHorizontal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <ProgressBar
             android:id="@+id/progress_bar"
@@ -56,9 +63,9 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="18dp"
             android:alpha="1"
+            android:fontFamily="@font/ibmplexsansthailooped_semibold"
             android:text="@string/email"
             android:textColor="@color/black"
-            android:fontFamily="@font/ibmplexsansthailooped_semibold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/guidelineHorizontal" />
 
@@ -91,9 +98,9 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:alpha="1"
+            android:fontFamily="@font/ibmplexsansthailooped_semibold"
             android:text="@string/password"
             android:textColor="@color/black"
-            android:fontFamily="@font/ibmplexsansthailooped_semibold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/email_ET_Layout" />
 
@@ -141,8 +148,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="@string/account_question"
             android:fontFamily="@font/ibmplexsansthailooped_semibold"
+            android:text="@string/account_question"
             android:textAlignment="center"
             app:layout_constraintTop_toBottomOf="@id/loginButton" />
 
@@ -151,10 +158,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="28dp"
+            android:fontFamily="@font/ibmplexsansthailooped_semibold"
             android:text="@string/register"
             android:textAlignment="center"
             android:textColor="@color/blue"
-            android:fontFamily="@font/ibmplexsansthailooped_semibold"
             app:layout_constraintTop_toBottomOf="@id/tv_signup_hint" />
 
         <androidx.constraintlayout.widget.Guideline

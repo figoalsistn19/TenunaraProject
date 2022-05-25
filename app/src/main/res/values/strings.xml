@@ -27,7 +27,20 @@
     <string name="title_signup_page">Fill in your personal data first</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_profile">Hello </string>
+    <string name="text_profile">Hello, Tenuners</string>
+    <string name="name_profile">Name user</string>
+    <string name="username">Username</string>
+    <string name="telephone">Telephone</string>
     <string name="explore_page">explore Page</string>
     <string name="home_page">home page</string>
     <string name="profile_page">profile page</string>
+    <string name="btn_edt_profile">Edit Profile</string>
+    <string name="edt_paswword">Edit Password</string>
+    <string name="btn_finish">Finish Edit</string>
+    <string name="now_pass">Now Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="new_pass_once">New password once again</string>
+    <string name="btn_edit_photo">Edit Photo</string>
+
 </resources>

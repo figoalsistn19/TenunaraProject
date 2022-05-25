@@ -1,14 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/profile_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".profile_page">
+    android:background="@drawable/bg_edit"
+    tools:context=".profile.ProfilePageFragment">
+
+    <ImageView
+        android:id="@+id/btn_logout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_logout_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/btn_setting"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_settings_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.743"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/profile_page" />
+        android:id="@+id/tv_hello_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/text_profile"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/ibmplexsansthailooped_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_setting"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_name_profile"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:text="@string/name_profile"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/ibmplexsans_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_hello_profile"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="94dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/btn_user"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_baseline_person_outline_24"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_username_profile"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="@font/ibmplexsans_regular"
+        android:text="@string/username"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/btn_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_hint_username"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/ibmplexsans_medium"
+        android:text="@string/username"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/btn_user"
+        app:layout_constraintTop_toBottomOf="@id/tv_username_profile"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btn_user1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_person_outline_24"
+        app:layout_constraintTop_toBottomOf="@id/btn_user"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_username_profile1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/ibmplexsans_regular"
+        android:text="@string/telephone"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/btn_user1"
+        app:layout_constraintTop_toBottomOf="@id/tv_hint_username" />
+
+    <TextView
+        android:id="@+id/tv_hint_username1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/ibmplexsans_medium"
+        android:text="@string/telephone"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/btn_user1"
+        app:layout_constraintTop_toBottomOf="@id/tv_username_profile1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btn_user2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_person_outline_24"
+        app:layout_constraintTop_toBottomOf="@id/btn_user1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_username_profile2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/ibmplexsans_regular"
+        android:text="@string/email"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/btn_user2"
+        app:layout_constraintTop_toBottomOf="@id/tv_hint_username1" />
+
+    <TextView
+        android:id="@+id/tv_hint_username2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/ibmplexsans_medium"
+        android:text="@string/email"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/btn_user2"
+        app:layout_constraintTop_toBottomOf="@id/tv_username_profile2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:text="@string/btn_edt_profile"
+        android:fontFamily="@font/ibmplexsans_medium"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="@color/blue"
+        app:strokeWidth="2dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

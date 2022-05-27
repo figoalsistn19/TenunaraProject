@@ -42,5 +42,12 @@
     <string name="new_pass">New Password</string>
     <string name="new_pass_once">New password once again</string>
     <string name="btn_edit_photo">Edit Photo</string>
+    <string name="languange">Languange</string>
+    <string name="dark_Mode">Dark Mode</string>
+    <string name="setting_preference">Setting Preferences</string>
+    <string name="history">History Scan</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="Desc">Description</string>
 
 </resources>

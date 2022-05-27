@@ -21,6 +21,10 @@
     <string name="register">Daftar</string>
     <string name="login">Masuk</string>
     <string name="name">Nama</string>
+    <string name="welcome_desc">
+        Kamu cari apa? \n
+        Kita bisa bantu kok…
+    </string>
     <string name="message_login_page">Silahkan lengkapi data anda</string>
     <string name="title_login_page">Selamat datang di aplikasi cerita</string>
     <string name="signup">Register</string>
@@ -30,4 +34,15 @@
     <string name="explore_page">explore Page</string>
     <string name="home_page">home page</string>
     <string name="profile_page">profile page</string>
+    <string name="welcome">Welcome</string>
+    <string name="explore_btn_page">Explore</string>
+    <string name="home_btn_page">Home</string>
+    <string name="profile_btn_page">Profile</string>
+    <string name="scan_woven_fabric">Scan Woven Fabric</string>
+    <string name="find_tenun_shop">Find Tenun Shop</string>
+    <string name="find_tenun_training">Find Tenun Training</string>
+    <string name="scan_history">Scan History</string>
+    <string name="top_weekly_tenun">Top Weekly Tenun</string>
+    <string name="background">background</string>
+    <string name="user">User</string>
 </resources>

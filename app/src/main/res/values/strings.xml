@@ -29,7 +29,6 @@
     <string name="title_login_page">Selamat datang di aplikasi cerita</string>
     <string name="signup">Register</string>
     <string name="title_signup_page">Fill in your personal data first</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="explore_page">explore Page</string>
     <string name="home_page">home page</string>
@@ -45,4 +44,34 @@
     <string name="top_weekly_tenun">Top Weekly Tenun</string>
     <string name="background">background</string>
     <string name="user">User</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="explore">Explore</string>
+    <string name="profile">Profile</string>
+    <string name="username">pigokz</string>
+    <string name="number_like">100</string>
+    <string name="songket_type">Songket Palembang</string>
+    <string name="likes">Likes</string>
+    <string name="hint_search">Cari model tenun</string>
+
+    <string-array name="data_name">
+        <item>gox</item>
+        <item>Tenunara</item>
+        <item>mantap</item>
+        <item>indonesia</item>
+        <item>Soekarno</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/onboarding_1</item>
+        <item>@drawable/onboarding_2</item>
+        <item>@drawable/onboarding_3</item>
+        <item>@drawable/onboarding_4</item>
+        <item>@drawable/imagelog</item>
+
+
+    </integer-array>
 </resources>

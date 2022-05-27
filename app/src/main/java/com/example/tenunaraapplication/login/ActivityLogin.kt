@@ -3,14 +3,11 @@ package com.example.tenunaraapplication.login
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.util.Log
 import android.view.WindowInsets
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import com.example.tenunaraapplication.databinding.ActivityLoginBinding
-import com.example.tenunaraapplication.main.HomeFragment
-
-import com.example.tenunaraapplication.main.MainActivity
+import com.example.tenunaraapplication.main.ui.MainActivity
 import com.example.tenunaraapplication.register.ActivityRegister
 
 class ActivityLogin : AppCompatActivity() {
@@ -31,7 +28,6 @@ class ActivityLogin : AppCompatActivity() {
 
         bindingLogin.loginButton.setOnClickListener {
             val intent = Intent(this@ActivityLogin, MainActivity::class.java)
-            Log.d("MyFlexibleFragment", "Fragment Name :" + HomeFragment::class.java.simpleName)
             startActivity(intent)
         }
     }

@@ -32,9 +32,8 @@
     <string name="name_profile">Name user</string>
     <string name="username">Username</string>
     <string name="telephone">Telephone</string>
-    <string name="explore_page">explore Page</string>
-    <string name="home_page">home page</string>
-    <string name="profile_page">profile page</string>
+
+    <!-- TODO: String on the profile page -->
     <string name="btn_edt_profile">Edit Profile</string>
     <string name="edt_paswword">Edit Password</string>
     <string name="btn_finish">Finish Edit</string>
@@ -45,9 +44,71 @@
     <string name="languange">Languange</string>
     <string name="dark_Mode">Dark Mode</string>
     <string name="setting_preference">Setting Preferences</string>
+
+    <!-- TODO: String on the history scan page -->
     <string name="history">History Scan</string>
     <string name="date">Date</string>
     <string name="time">Time</string>
     <string name="Desc">Description</string>
+
+    <!-- TODO: String on the Scan woven page -->
+    <string name="Scan">Scan Woven Fabric</string>
+    <string name="succes_identified">Fabric Identified</string>
+    <string name="title_woven">title woven</string>
+    <string name="desc_woven">Songket Minangkabau dikenal memiliki banyak pilihan motif yang tidak hanya menarik namun juga kaya akan makna dan filosofi.</string>
+    <string name="post_woven">Post to Explore</string>
+    <string name="Return">Return to Home</string>
+    <string name="read_more">Read More...</string>
+    <string name="failed_identified">The Fabric can\'t identified!</string>
+    <string name="desc_failed">Maybe you can take a picture focus on motive.</string>
+    <string name="desc_failed2">Keep Spirit!</string>
+    <string name="try_again">Try Again</string>
+
+    <!-- TODO: String on the home page -->
+    <string name="home_page">home page</string>
+    <string name="profile_page">profile page</string>
+    <string name="welcome">Welcome</string>
+    <string name="explore_btn_page">Explore</string>
+    <string name="home_btn_page">Home</string>
+    <string name="profile_btn_page">Profile</string>
+    <string name="scan_woven_fabric">Scan Woven Fabric</string>
+    <string name="find_tenun_shop">Find Tenun Shop</string>
+    <string name="find_tenun_training">Find Tenun Training</string>
+    <string name="scan_history">Scan History</string>
+    <string name="top_weekly_tenun">Top Weekly Tenun</string>
+    <string name="user">User</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="explore">Explore</string>
+    <string name="profile">Profile</string>
+    <string name="username2">pigokz</string>
+    <string name="number_like">100</string>
+    <string name="songket_type">Songket Palembang</string>
+    <string name="likes">Likes</string>
+    <string name="hint_search">Cari model tenun</string>
+    <string name="background">background</string>
+    <string name="welcome_desc">
+        Kamu cari apa? \n
+        Kita bisa bantu kok…
+    </string>
+
+    <string-array name="data_name">
+        <item>gox</item>
+        <item>Tenunara</item>
+        <item>mantap</item>
+        <item>indonesia</item>
+        <item>Soekarno</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/onboarding_1</item>
+        <item>@drawable/onboarding_2</item>
+        <item>@drawable/onboarding_3</item>
+        <item>@drawable/onboarding_4</item>
+        <item>@drawable/imagelog</item>
+    </integer-array>
 
 </resources>

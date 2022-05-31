@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.view.WindowInsets
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import com.example.tenunaraapplication.MainActivity
 import com.example.tenunaraapplication.databinding.ActivityLoginBinding
+import com.example.tenunaraapplication.MainActivity
 import com.example.tenunaraapplication.register.ActivityRegister
 
 class ActivityLogin : AppCompatActivity() {
@@ -27,7 +27,7 @@ class ActivityLogin : AppCompatActivity() {
         }
 
         bindingLogin.loginButton.setOnClickListener {
-            val intent = Intent (this@ActivityLogin, MainActivity ::class.java)
+            val intent = Intent(this@ActivityLogin, MainActivity::class.java)
             startActivity(intent)
         }
     }

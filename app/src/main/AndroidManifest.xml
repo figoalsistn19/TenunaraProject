@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tenunaraapplication">
-
+        <activity
+            android:name=".camera.CameraActivity"
+            android:exported="false" />
         <activity
             android:name=".onboarding.OnBoardingActivity"
             android:exported="false" />

@@ -3,21 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/drawable-v24/customcardview.xml" value="0.1425" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/drawable-v24/ic_love.xml" value="0.1425" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/drawable/bg_scan.xml" value="0.1405" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1405" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1405" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/drawable/ic_logout_24.xml" value="0.1405" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/drawable/ic_settings_24.xml" value="0.1405" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/activity_camera.xml" value="0.20416666666666666" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/activity_login.xml" value="0.1082427536231884" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/activity_onboarding.xml" value="0.16757246376811594" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/activity_password_edit_page.xml" value="0.18" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/activity_profile_edit_page.xml" value="0.1" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/activity_profile_page.xml" value="0.1" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/activity_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/activity_splashscreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_explore.xml" value="0.20416666666666666" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_history_scan.xml" value="0.25" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_home_page.xml" value="0.1" />
-        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_password_edit_page.xml" value="0.18" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_password_edit_page.xml" value="0.25" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_profile_edit_page.xml" value="0.18" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_profile_page.xml" value="0.18" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_scan_failed.xml" value="0.203125" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_scan_success.xml" value="0.20416666666666666" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/fragment_setting.xml" value="0.25" />
         <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/item_history.xml" value="0.19010416666666666" />
+        <entry key="..\:/Capstone/TenunaraProject/TenunaraProject/app/src/main/res/layout/item_row_explore.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Top 1 Streamer Indo/AndroidStudioProjects/TenunaraProject/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/Top 1 Streamer Indo/AndroidStudioProjects/TenunaraProject/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Top 1 Streamer Indo/AndroidStudioProjects/TenunaraProject/app/src/main/res/layout/activity_register.xml" value="0.16" />

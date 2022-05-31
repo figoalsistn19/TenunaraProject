@@ -10,4 +10,8 @@
     <color name="blue">#7BA9EE</color>
     <color name="gray">#e2e2e2</color>
     <color name="black_2">#3A3030</color>
+    <color name="soft_black">#3A3030</color>
+    <color name="blue_2">#3C7EDF</color>
+
+
 </resources>

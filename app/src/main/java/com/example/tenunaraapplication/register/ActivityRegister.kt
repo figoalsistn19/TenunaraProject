@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowInsets
 import android.view.WindowManager
-import com.example.tenunaraapplication.R
 import com.example.tenunaraapplication.databinding.ActivityRegisterBinding
 import com.example.tenunaraapplication.login.ActivityLogin
 
